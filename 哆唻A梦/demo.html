@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>哆唻A梦</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        html,
+        body {
+            background-color:#fff;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        svg {
+            width: 500px;
+            height: 500px;
+            /* border: 1px solid #000; */
+        }
+
+        circle {
+            fill:#2e87fb;
+        }
+
+        #demo {
+            fill: white;
+            stroke: #ddd;
+        }
+
+        line {
+            stroke-width: 10px;
+            stroke: #f30;
+            stroke-linecap: round;
+        }
+
+        .ell {
+            fill: #fff;
+            stroke: #323233;
+        }
+
+        #cir {
+            fill:#f30;
+        }
+
+        #bizi {
+            fill: #fff;
+            stroke: #ddd;
+        }
+
+        .zuiba {
+            stroke: #000;
+            stroke-width: 1px;
+        }
+
+        #d1 {
+            fill: transparent;
+            stroke: #000;
+        }
+
+        .li1 {
+            stroke: #000;
+            stroke-width: 1px;
+        }
+
+        rect {
+            fill:#2e87fb;
+        }
+
+        .elli2 {
+            fill: #fff;
+            stroke: #333;
+        }
+
+        .elli3 {
+            fill: #fff;
+        }
+
+        #pa4 {
+            fill: #fff;
+            stroke: #ddd;
+        }
+
+        #ne {
+            stroke: #323233;
+            stroke-width: 1px;
+        }
+        #pa5{
+            fill:#fff;
+            stroke: #323233;
+        }
+        #ci1{
+            fill:rgb(245, 245, 22);
+            stroke: #ddd;
+        }
+        #li5{
+            stroke: #323233;
+            stroke-width: 2px;
+        }
+        .cle{
+            fill:#343;
+        }
+        #li6{
+            stroke:#2e87fb;
+            stroke-width: 26px;
+            stroke-opacity:initial;
+        }
+        #ci0{
+            fill:#fff;
+            stroke: #323233;
+        }
+    </style>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="si-glyph-view">
+        <!-- 头部 -->
+        <circle r="100" cx="250" cy="150"></circle>
+        <path d="M 224 250 A 90 70 0 1 1 274 250" id="demo"></path>
+        <!-- 脖子 -->
+        <line x1="195" y1="247" x2="300" y2="247"></line>
+        <!-- 眼睛 -->
+        <ellipse rx="25" ry="30" cx="227" cy="110" class="ell"></ellipse>
+        <ellipse rx="25" ry="30" cx="277" cy="110" class="ell"></ellipse>
+        <!-- 眼珠 -->
+        <ellipse rx="3" ry="6" cx="234" cy="120"></ellipse>
+        <ellipse rx="3" ry="6" cx="269" cy="120"></ellipse>
+        <!-- 鼻子 -->
+        <circle r="10" cx="252" cy="138" id="cir"></circle>
+        <ellipse rx="4" ry="5" cx="256" cy="137" id="bizi"></ellipse>
+        <line x1="252" y1="148" x2="252" y2="223" class="zuiba"></line>
+        <!-- 嘴巴 -->
+        <path d="M 194 210 A 90 70 0 0 0 304 210" id="d1"></path>
+        <!-- 左边胡须 -->
+        <line x1="236" y1="165" x2="180" y2="155" class="li1"></line>
+        <line x1="236" y1="175" x2="175" y2="173" class="li1"></line>
+        <line x1="236" y1="185" x2="180" y2="195" class="li1"></line>
+        <!-- 右边胡须 -->
+        <line x1="269" y1="165" x2="325" y2="155" class="li1"></line>
+        <line x1="269" y1="175" x2="330" y2="173" class="li1"></line>
+        <line x1="269" y1="185" x2="325" y2="195" class="li1"></line>
+        <!-- 手臂 -->
+        <line x1="181" y1="260" x2="120" y2="247" id="li6"></line>
+        <line x1="310" y1="260" x2="366" y2="310" id="li6"></line>
+        <!-- 手掌 -->
+        <circle r="20" cx="120" cy="247" id="ci0"></circle>
+        <circle r="20" cx="366" cy="307" id="ci0"></circle>
+        <!-- 躯干 -->
+        <rect x="177" y="250" width="140" height="130" rx="20" ry="20"></rect>
+        <!-- 裤裆 -->
+        <ellipse rx="15" ry="40" cx="247" cy="395" class="elli3"></ellipse>
+        <!-- 双脚 -->
+        <ellipse rx="40" ry="15" cx="207" cy="370" class="elli2"></ellipse>
+        <ellipse rx="40" ry="15" cx="288" cy="370" class="elli2"></ellipse>
+        <!-- 肚兜儿 -->
+        <path d="M205 250 A 60 55 -180 1 0 290 250" id="pa4"></path>
+        <line x1="212" y1="280" x2="287" y2="280" id="ne"></line>
+        <path d="M212 280 A 10 13 -180 1 0 287 280" id="pa5"></path>
+        <!-- 铃铛 -->
+        <circle r="11" cx="250" cy="245" id="ci1"></circle>
+        <circle r="4" cx="253" cy="248" id="ci2" class="cle"></circle>
+        <line x1="253" y1="248" x2="257" y2="252" id="li5"></line>
+    </svg>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG绘图</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        html,body{
+            background-color: burlywood;
+            overflow: hidden;
+        }
+        svg {
+            /* border: 1px solid #000; */
+            margin:100px auto;
+            display: block;
+        }
+        rect{
+            fill:transparent;
+            stroke:#000;
+        }
+        .cir{
+            fill:transparent;
+            stroke:#000;
+        }
+        ellipse{
+            fill:transparent;
+            stroke:#000;
+        }
+        .pol{
+            fill:transparent;
+            stroke:#000;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="si-glyph-view" width="400" height="400">
+        <polyline points="110 100, 125 85, 150 100, 175 85, 200 100,225 85, 240 100"></polyline>
+        <rect x="100" y="100" width="150" height="150" rx="10"ry="20"></rect>
+        <circle class="cir" r="10" cx="140" cy="135"></circle>
+        <circle class="cir" r="10" cx="210" cy="135"></circle>
+        <circle r="4" cx="142" cy="138"></circle>
+        <circle r="4" cx="212" cy="138"></circle>
+        <polygon points="175 155,180 170,170 170"></polygon>
+        <ellipse rx="50" ry="25" cx="180" cy="210"></ellipse>
+        <polyline points="133 220,190 200,225 220 " class="pol"></polyline>
+        <text x="140" y="270">hello,松哥</text>
+
+    </svg>
+</body>
+
+</html>
